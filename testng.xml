@@ -5,14 +5,15 @@
 
     <test name="My tests">
         <classes>
-            <class name="testCases.HomePageTests">
+            <class name="testCases.AddPropertyTests">
                 <methods>
-                    <include name="runTest1"></include>
-                    <include name="runTest2"></include>
-                    <include name="runTest3"></include>
-                    <include name="runTest4"></include>
-                    <include name="runTest5"></include>
-                    <include name="runTest6"></include>
+                    <include name="performLogin"></include>
+                    <include name="verifyPropertyCancel"></include>
+                    <include name="verifyAddProperty"></include>
+                    <include name="verifyNewPropertyCreated"></include>
+                    <include name="verifyEditProperty"></include>
+                    <include name="verifyDeleteProperty"></include>
+                    <include name="verifyLogout"></include>
                 </methods>
             </class>
         </classes>

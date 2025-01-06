@@ -1,7 +1,5 @@
 To run the tests, please clone or download the repository
 
-git clone https://github.com/areesha-altaf/SeleniumTask.git
-
 Launch the IDE, open a project, click pom.xml, and open it as a project
 
 On the terminal, run the following command:

@@ -1,15 +1,15 @@
 package utils;
 
 public class TestData {
-    public static final String BASE_URL = "HomePageDoc.html";
-    public static final String EMAIL = "testuser@email.com";
-    public static final String PASSWORD = "password123";
-    public static final int LIST_SIZE = 3;
-    public static final String SECOND_LIST_ITEM = "List Item 2";
-    public static final String SECOND_LIST_ITEM_BADGE = "6";
-    public static final String OPTION_1 = "Option 1";
-    public static final String OPTION_3 = "Option 3";
-    public static final String CLICK_MSG = "You clicked a button!";
-    public static final int CELL_INDEXES = 2;
-    public static final String CELL_NAME = "Ventosanzap";
+    public static final String BASE_URL = "https://qa-app.dev.turbotenant.com/";
+    public static final String USERNAME = "areesha";
+    public static final String PASSWORD = "Test@123";
+    public static final String NO_PROPERTY_MSG = "No properties available. Please add some.";
+    public static final String PROPERTY_TITLE = "Test title";
+    public static final String PROPERTY_TITLE_EDIT = "New title";
+    public static final String PROPERTY_DESC = "test description";
+    public static final String PROPERTY_DESC_EDIT = "new description";
+    public static final String PROPERTY_RENT = "2500";
+    public static final String PROPERTY_RENT_EDIT = "3000";
+
 }

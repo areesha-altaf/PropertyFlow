@@ -1,9 +1,5 @@
-pageObjects/HomeTest1.class
-pageObjects/HomeTest4.class
 pageObjects/BaseTest.class
+pageObjects/PropertyPage.class
+pageObjects/LoginPage.class
 utils/ReusableFunctions.class
-pageObjects/HomeTest2.class
-pageObjects/HomeTest6.class
-pageObjects/HomeTest5.class
 utils/TestData.class
-pageObjects/HomeTest3.class

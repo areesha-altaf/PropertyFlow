@@ -2,6 +2,8 @@ package utils;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class ReusableFunctions {
 
@@ -10,9 +12,15 @@ public class ReusableFunctions {
         js.executeScript("arguments[0].scrollIntoView(true);", element);
     }
 
-    public static void waitFor3Seconds() {
+//    public static void waitForElementVisible(WebDriver driver, WebElement element, int timeoutInSeconds) {
+//        waitForSeconds(500);
+//        WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
+//        wait.until(ExpectedConditions.visibilityOf(element));
+//    }
+
+    public static void waitForSeconds(int num) {
         try {
-            Thread.sleep(3000); // 3000 milliseconds = 3 seconds
+            Thread.sleep(num);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
