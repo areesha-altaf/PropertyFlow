@@ -1,5 +1,0 @@
-pageObjects/BaseTest.class
-pageObjects/PropertyPage.class
-pageObjects/LoginPage.class
-utils/ReusableFunctions.class
-utils/TestData.class
